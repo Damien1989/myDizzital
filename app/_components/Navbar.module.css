@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 0 20px;
+    background-color: #36815bb7;
+    color: white;
+  }
+  
+  .navbarBrand a {
+    font-size: 44px;
+    font-family: 'Moulpali', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbarMenu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbarMenu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .navbarMenu li a:hover {
+    text-decoration: underline;
+  }
